@@ -5000,11 +5000,6 @@ export const extraRpcs = {
       "https://rpc.devnet.citrea.xyz",
     ]
   },
-  9981: {
-    rpcs: [
-      "https://main-rpc.volleychain.com",
-    ]
-  },
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
